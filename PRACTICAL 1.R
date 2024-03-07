@@ -6,5 +6,5 @@ sum((X))
 mean(Y)
 w<-c(2,7,NA,20)
 sum(w)
-sum(na.rm=TRUE)
-help()
+v<-w[!is.na(w)]
+v
